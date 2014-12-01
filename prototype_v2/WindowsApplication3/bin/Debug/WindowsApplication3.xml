@@ -1,0 +1,91 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WindowsApplication3
+</name>
+</assembly>
+<members>
+<member name="M:WindowsApplication3.LogIn.LogIn_Load(System.Object,System.EventArgs)">
+	<summary>
+ Executes when form loads
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication3.LogIn.BtnOk_Click(System.Object,System.EventArgs)">
+	<summary>
+ On click of "OK" button. Username and password are validated. Displays appropriate message.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication3.LogIn.GenerateRandomNumbers">
+	<summary>
+ Main Program to generate Random numbers.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication3.LogIn.CreateButtons(System.Windows.Forms.Panel,System.Boolean,System.Int64[])">
+	<summary>
+ Dynamic button generation.
+ </summary>
+	<param name="pnl"></param>
+	<param name="Alpha"></param>
+	<param name="arr"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication3.LogIn.GenerateRandomAlphabates">
+	<summary>
+ Used to fill alphabatical array values.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication3.LogIn.RandomizeArray(System.Int64[],System.Int32,System.Boolean)">
+	<summary>
+ Re-arrange array values to create random array.
+ </summary>
+	<param name="arr"></param>
+	<param name="maxval"></param>
+	<param name="alpha"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication3.LogIn.alreadyExists(System.Int32,System.Int32,System.Int64[])">
+	<summary>
+ Check wheather newly created random number already exists in the array or not.
+ </summary>
+	<param name="no"></param>
+	<param name="indx"></param>
+	<param name="arr"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication3.LogIn.btn_Click(System.Object,System.EventArgs)">
+	<summary>
+ Delegate for all Button click.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:WindowsApplication3.LogIn.ShowNumber(System.Char)">
+	<summary>
+  Show button value into the textbox.
+ </summary>
+	<param name="ch"></param>
+	<remarks></remarks>
+</member><member name="T:WindowsApplication3.LogIn">
+	<summary>
+ Author: Saroj Gajraj
+ </summary>
+	<remarks></remarks>
+</member><member name="P:WindowsApplication3.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:WindowsApplication3.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:WindowsApplication3.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
